@@ -1,0 +1,4 @@
+{
+  "ircmod.toast.wrong_shaderpack.title": "You may be loading an incorrect ShaderPack",
+  "ircmod.toast.wrong_shaderpack.description": " is likely to be a ResourcePack instead of a ShaderPack. Please check the creator's instructions again."
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "one.pkg.wrd.mod.shared.optifine",
+  "refmap": "ircmod.optifine.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "GuiSlotShadersMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

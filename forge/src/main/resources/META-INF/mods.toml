@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "${forge_loader_version_range}"
+license = "${license}"
+issueTrackerURL="${issues_url}"
+clientSideOnly=true
+
+[[mods]]
+modId = "${mod_id}"
+version = "${version}"
+displayName = "${mod_name}"
+updateJSONURL="${update_url}"
+displayURL="${homepage_url}"
+logoFile = "assets/iris_rp_check/icon.png"
+credits = "${credits}"
+authors = "${mod_author}"
+description = '''${description}'''
+
+[[mixins]]
+config = "${mod_id}.optifine.mixins.json"
+
+
+[[dependencies."${mod_id}"]]
+modId = "forge"
+mandatory = true
+versionRange = "${forge_loader_version_range}"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "CLIENT"

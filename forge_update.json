@@ -1,0 +1,8 @@
+{
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/wrpd",
+  "json_url": "https://mvnc.pkg.one/update/mod/wrpd/forge_update.json",
+  "promos": {
+    "1.21.8-latest": "0.0.1+1.21.8",
+    "1.21.8-recommended": "0.0.1+1.21.8"
+  }
+}

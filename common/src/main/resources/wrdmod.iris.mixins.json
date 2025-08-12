@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "one.pkg.wrd.shared.iris",
+  "plugin": "one.pkg.wrd.shared.iris.ModMixinPlugin",
+  "refmap": "ircmod.iris.refmap.json",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "client": [
+    "ShaderPackScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
