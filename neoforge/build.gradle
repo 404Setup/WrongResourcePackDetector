@@ -26,14 +26,11 @@ neoForge {
         client {
             client()
         }
-        clientData {
-            clientData()
+        data {
+            data()
         }
         server {
             server()
-        }
-        serverData {
-            serverData()
         }
     }
     mods {

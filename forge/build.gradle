@@ -93,7 +93,7 @@ dependencies {
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.4.1"))
 
     compileOnly("maven.modrinth:iris:${iris_version}neoforge")
-    implementation(files("OptiFine_1.21.4_HD_U_J3.jar"))
+    implementation(files("OptiFine_1.21.1_HD_U_J1.jar"))
 
     // Forge's hack fix
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }

@@ -4,7 +4,7 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.components.toasts.SystemToast;
-import net.minecraft.client.gui.components.toasts.ToastManager;
+import net.minecraft.client.gui.components.toasts.ToastComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.FormattedCharSequence;
 
@@ -41,7 +41,7 @@ public class ModToast {
 
     public static void sendToast(String title) {
         Minecraft.getInstance().doRunTask(() -> {
-            ToastManager manager = Minecraft.getInstance().getToastManager();
+            ToastComponent manager = Minecraft.getInstance().getToasts();
             manager.addToast(
                     multiline(
                             Component.translatable("ircmod.toast.wrong_shaderpack.title"),
