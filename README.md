@@ -1,8 +1,9 @@
 # ResourcePack detection that shouldn't exist
-Detect if the player is loading a ResourcePack in the wrong place.
+Detect if the player is loading a resource pack in the wrong place.
 
 Currently supported: 
-- ResourcePacks that should not appear in the ShaderPack directory
+- Resource packs that should not appear in the shader pack directory
+- Nested resource packs
 
 ## Compatibility
 - Iris (NeoForge/Fabric)

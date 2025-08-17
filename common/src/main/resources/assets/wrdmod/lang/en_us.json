@@ -1,4 +1,6 @@
 {
-  "ircmod.toast.wrong_shaderpack.title": "You may be loading an incorrect ShaderPack",
-  "ircmod.toast.wrong_shaderpack.description": " is likely to be a ResourcePack instead of a ShaderPack. Please check the creator's instructions again."
+  "wrpd.toast.wrong_shaderpack.title": "Loading incorrect shader pack",
+  "wrpd.toast.wrong_shaderpack.description": " is likely to be a resource pack instead of a shader pack. Please check the creator's instructions again.",
+  "wrpd.toast.not_a_rp.title": "Incorrect resource pack detected",
+  "wrpd.toast.pack_in_pack_description": " may be a combined archive, you should try extracting it"
 }

@@ -1,0 +1,6 @@
+{
+  "wrpd.toast.wrong_shaderpack.title": "正在加載錯誤的着色器包",
+  "wrpd.toast.wrong_shaderpack.description": " 很可能是一個資源包，而不是着色器包。請再次檢查作者的說明。",
+  "wrpd.toast.not_a_rp.title": "發現不正確的資源包",
+  "wrpd.toast.pack_in_pack_description": " 可能是一個組合式的壓縮包，您應該嘗試解壓它"
+}

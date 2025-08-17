@@ -1,4 +1,6 @@
 {
-  "ircmod.toast.wrong_shaderpack.title": "Возможно, загружен неправильный шейдерпак",
-  "ircmod.toast.wrong_shaderpack.description": ", вероятно, является ресурспаком, а не шейдерпаком. Пожалуйста, проверьте инструкции автора еще раз."
+  "wrpd.toast.wrong_shaderpack.title": "Загрузка некорректного шейдер-пака",
+  "wrpd.toast.wrong_shaderpack.description": " скорее всего является пакетом ресурсов, а не шейдер-паком. Пожалуйста, проверьте инструкции создателя еще раз.",
+  "wrpd.toast.not_a_rp.title": "Обнаружен некорректный пакет ресурсов",
+  "wrpd.toast.pack_in_pack_description": " может быть объединенным архивом, попробуйте его распаковать"
 }

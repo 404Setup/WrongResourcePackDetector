@@ -1,5 +1,6 @@
 package one.pkg.wrd.shared.iris;
 
+import one.pkg.wrd.shared.util.ModInstance;
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
@@ -32,7 +33,7 @@ public class ModMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        return !isForge;
+        return !isForge && ModInstance.hasIris();
     }
 
     @Override

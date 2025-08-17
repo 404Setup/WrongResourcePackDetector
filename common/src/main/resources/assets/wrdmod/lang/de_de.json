@@ -1,0 +1,6 @@
+{
+  "wrpd.toast.wrong_shaderpack.title": "Falsches Shaderpack wird geladen",
+  "wrpd.toast.wrong_shaderpack.description": " ist wahrscheinlich ein Ressourcenpaket anstelle eines Shaderpacks. Bitte überprüfen Sie die Anweisungen des Erstellers erneut.",
+  "wrpd.toast.not_a_rp.title": "Falsches Ressourcenpaket erkannt",
+  "wrpd.toast.pack_in_pack_description": " könnte ein kombiniertes Archiv sein, Sie sollten versuchen es zu extrahieren"
+}

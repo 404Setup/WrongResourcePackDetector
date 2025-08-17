@@ -39,16 +39,27 @@ public class ModToast {
         }
     }
 
-    public static void sendToast(String title) {
+    private static void sendToast(Component title, Component description) {
         Minecraft.getInstance().doRunTask(() -> {
             ToastManager manager = Minecraft.getInstance().getToastManager();
-            manager.addToast(
-                    multiline(
-                            Component.translatable("ircmod.toast.wrong_shaderpack.title"),
-                            Component.literal(ChatFormatting.GOLD + title + ChatFormatting.RESET)
-                                    .append(Component.translatable("ircmod.toast.wrong_shaderpack.description"))
-                    )
-            );
+            manager.addToast(multiline(title, description));
         });
+    }
+
+    public static void sendShaderRPToast(String title) {
+        sendToast(
+                Component.translatable("wrpd.toast.wrong_shaderpack.title"),
+                Component.literal(ChatFormatting.GOLD + title + ChatFormatting.RESET)
+                        .append(Component.translatable("wrpd.toast.wrong_shaderpack.description"))
+        );
+    }
+
+    public static void sendPackInPackRPToast(String title) {
+        sendToast(
+                Component.translatable("wrpd.toast.not_a_rp.title"),
+                Component.literal(ChatFormatting.GOLD + title + ChatFormatting.RESET)
+                        .append(Component.translatable("wrpd.toast.pack_in_pack_description"))
+        );
+
     }
 }

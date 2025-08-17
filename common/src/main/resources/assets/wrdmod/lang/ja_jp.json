@@ -1,4 +1,6 @@
 {
-  "ircmod.toast.wrong_shaderpack.title": "間違ったShaderPackを読み込んでいる可能性があります",
-  "ircmod.toast.wrong_shaderpack.description": " はShaderPackではなく、ResourcePackである可能性が高いです。作者の説明をもう一度確認してください。"
+  "wrpd.toast.wrong_shaderpack.title": "不正なシェーダーパックが検出されました",
+  "wrpd.toast.wrong_shaderpack.description": " はシェーダーパックではなくリソースパックである可能性が高いです。作者の説明をもう一度ご確認ください。",
+  "wrpd.toast.not_a_rp.title": "不正なリソースパックが検出されました",
+  "wrpd.toast.pack_in_pack_description": " は結合されたアーカイブである可能性があります。展開を試してください"
 }

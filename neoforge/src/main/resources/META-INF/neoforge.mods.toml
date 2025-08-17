@@ -9,10 +9,13 @@ version = "${version}"
 displayName = "${mod_name}"
 updateJSONURL="${update_url}"
 displayURL="${homepage_url}"
-logoFile = "assets/wrdmod/icon.png"
+logoFile = "assets/${mod_id}/icon.png"
 credits="${credits}"
 authors = "${mod_author}"
 description = '''${description}'''
+
+[[mixins]]
+config = "${mod_id}.mixins.json"
 
 [[mixins]]
 config = "${mod_id}.iris.mixins.json"
