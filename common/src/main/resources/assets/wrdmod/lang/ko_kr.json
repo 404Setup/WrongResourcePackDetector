@@ -1,0 +1,6 @@
+{
+  "wrpd.toast.wrong_shaderpack.title": "잘못된 쉐이더 팩이 감지되었습니다",
+  "wrpd.toast.wrong_shaderpack.description": " 는 쉐이더 팩이 아닌 리소스 팩일 가능성이 높습니다. 제작자의 설명을 다시 한 번 확인해주세요.",
+  "wrpd.toast.not_a_rp.title": "잘못된 리소스 팩이 감지되었습니다",
+  "wrpd.toast.pack_in_pack_description": " 는 통합 압축 파일일 수 있으니 압축을 풀어보시기 바랍니다"
+}

@@ -18,19 +18,19 @@ import java.nio.file.Path;
 @Mixin(value = ShaderPackScreen.class, remap = false)
 public class ShaderPackScreenMixin {
     @Inject(method = "applyChanges", at = @At(value = "INVOKE", target = "Lnet/irisshaders/iris/config/IrisConfig;setShaderPackName(Ljava/lang/String;)V", shift = At.Shift.AFTER, by = 2))
-    private void vrkmod$applyChanges(CallbackInfo ci,
+    private void wrpd$applyChanges(CallbackInfo ci,
                                      @Local ShaderPackSelectionList.ShaderPackEntry entry) {
         Thread.ofVirtual().start(() -> {
-            Path path = ModInstance.getGameDir().resolve("shaderpacks").resolve(entry.getPackName());
+            Path path = ModInstance.getShaderPackDir(entry.getPackName());
             File file = path.toFile();
             if (!file.exists()) return;
             if (file.isDirectory()) {
                 File meta = path.resolve("pack.mcmeta").toFile();
-                if (meta.exists()) ModToast.sendToast(file.getName());
+                if (meta.exists()) ModToast.sendShaderRPToast(file.getName());
             } else if (file.isFile()) {
                 try (ZipFile zip = ZipFile.builder().setFile(file).get()) {
                     ZipArchiveEntry target = zip.getEntry("pack.mcmeta");
-                    if (target != null) ModToast.sendToast(file.getName());
+                    if (target != null) ModToast.sendShaderRPToast(file.getName());
                 } catch (Exception e) {
                     ModInstance.logger.error("Failed to open shaderpack {}", file, e);
                 }

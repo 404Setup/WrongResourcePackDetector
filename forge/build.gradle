@@ -14,13 +14,14 @@ configurations {
 }
 
 mixin {
+    config("${mod_id}.mixins.json")
     config("${mod_id}.optifine.mixins.json")
     //config("${mod_id}.forge.mixins.json")
 }
 
 jar {
     manifest {
-        attributes["MixinConfigs"] = "${mod_id}.optifine.mixins.json"//,${mod_id}.forge.mixins.json"
+        attributes["MixinConfigs"] = "${mod_id}.mixins.json,${mod_id}.optifine.mixins.json"
     }
 }
 
@@ -46,7 +47,7 @@ dependencies {
     compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.0"))
 
     compileOnly("maven.modrinth:iris:${iris_version}neoforge")
-    implementation(files("OptiFine_1.21.1_HD_U_J1.jar"))
+    implementation(files("preview_OptiFine_1.21.8_HD_U_J6_pre14.jar"))
 
     // Forge's hack fix
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
