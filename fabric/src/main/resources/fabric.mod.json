@@ -12,7 +12,7 @@
     "issues": "${issues_url}"
   },
   "license": "${license}",
-  "icon": "assets/wrdmod/icon.png",
+  "icon": "assets/${mod_id}/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
