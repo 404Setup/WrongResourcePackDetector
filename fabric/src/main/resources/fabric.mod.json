@@ -22,13 +22,16 @@
     ]
   },
   "mixins": [
+    "${mod_id}.mixins.json",
     "${mod_id}.iris.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": "*",
     "minecraft": "${fabric_game_version_range}",
-    "iris": "*",
     "java": ">=${java_version}"
+  },
+  "recommends": {
+    "iris": "*"
   }
 }

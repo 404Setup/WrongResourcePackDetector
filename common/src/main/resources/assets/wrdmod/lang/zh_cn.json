@@ -1,4 +1,6 @@
 {
-  "ircmod.toast.wrong_shaderpack.title": "您可能正在加载一个错误的ShaderPack",
-  "ircmod.toast.wrong_shaderpack.description": " 很可能是一个ResourcePack，而不是ShaderPack。请再次检查创作者的说明。"
+  "wrpd.toast.wrong_shaderpack.title": "正在加载错误的着色器包",
+  "wrpd.toast.wrong_shaderpack.description": " 很可能是一个资源包，而不是着色器包。请再次检查作者的说明。",
+  "wrpd.toast.not_a_rp.title": "发现不正确的资源包",
+  "wrpd.toast.pack_in_pack_description": " 可能是一个组合式的压缩包，您应该尝试解压它"
 }

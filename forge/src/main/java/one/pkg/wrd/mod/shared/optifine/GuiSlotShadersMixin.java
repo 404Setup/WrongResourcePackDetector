@@ -25,7 +25,7 @@ public abstract class GuiSlotShadersMixin extends SlotGui {
             meta.close();
         } catch (Exception ignored) {
         }
-        ModToast.sendToast(sp.getName());
+        ModToast.sendShaderRPToast(sp.getName());
         cir.setReturnValue(false);
     }
 }

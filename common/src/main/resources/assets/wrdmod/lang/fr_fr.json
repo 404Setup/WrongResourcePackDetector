@@ -1,0 +1,6 @@
+{
+  "wrpd.toast.wrong_shaderpack.title": "Chargement d'un shader pack incorrect",
+  "wrpd.toast.wrong_shaderpack.description": " est probablement un pack de ressources au lieu d'un shader pack. Veuillez vérifier à nouveau les instructions du créateur.",
+  "wrpd.toast.not_a_rp.title": "Pack de ressources incorrect détecté",
+  "wrpd.toast.pack_in_pack_description": " peut être une archive combinée, vous devriez essayer de l'extraire"
+}
